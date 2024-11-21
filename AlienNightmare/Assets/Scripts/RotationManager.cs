@@ -5,6 +5,7 @@ using Cinemachine;
 
 public class RotationManager : MonoBehaviour
 {
+    private bool canRotate;
     [Header("Cameras")]
     public CinemachineVirtualCamera Kermit01Cam;
     public CinemachineVirtualCamera Kermit02Cam;
@@ -30,10 +31,16 @@ public class RotationManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        RotateCamera();
+    }
+
+    private void RotateCamera()
+    {
         //State Changes
         if (Input.GetKeyUp(KeyCode.RightArrow))
         {
             currentState++;
+            canRotate = false;
 
             if (currentState >= BluntState.MAXIMUM)
             {
@@ -72,5 +79,10 @@ public class RotationManager : MonoBehaviour
             Kermit03Cam.Priority = 1;
             Kermit04Cam.Priority = 2;
         }
+    }
+
+    public void EnableRotation()
+    {
+        canRotate = true;
     }
 }
