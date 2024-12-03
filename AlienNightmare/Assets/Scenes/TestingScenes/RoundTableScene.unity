@@ -1279,12 +1279,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inkJSONAssets:
   - {fileID: 4900000, guid: 6ec6a7f5f87f9e84c90d21168d7a7d1d, type: 3}
+  - {fileID: 4900000, guid: 32cbf86a1a75745f89be62642eff97ee, type: 3}
   resetStateOnConversationStart: 0
-  actorNamesPrecedeLines: 0
+  actorNamesPrecedeLines: 1
   caseSensitiveActorNames: 0
   trimText: 1
   appendNewlineToPlayerResponses: 0
-  playerDialogueTextFollowsResponseText: 0
+  playerDialogueTextFollowsResponseText: 1
   disableAlwaysForceResponseMenu: 1
   forceResponseMenuForSingleChoices: 0
   tieSequencesToDialogueEntries: 1
@@ -6301,7 +6302,7 @@ MonoBehaviour:
   allowBarksDuringConversations: 0
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
-  conversation: InkyTest
+  conversation: KermRot01
   conversationConversant: {fileID: 0}
   conversationActor: {fileID: 0}
   startConversationEntryID: -1
