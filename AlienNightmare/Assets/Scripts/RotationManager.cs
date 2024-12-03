@@ -7,25 +7,29 @@ public class RotationManager : MonoBehaviour
 {
     private bool canRotate;
     [Header("Cameras")]
-    public CinemachineVirtualCamera Kermit01Cam;
-    public CinemachineVirtualCamera Kermit02Cam;
-    public CinemachineVirtualCamera Kermit03Cam;
-    public CinemachineVirtualCamera Kermit04Cam;
+    public CinemachineVirtualCamera Nathan01Cam;
+    public CinemachineVirtualCamera Stephen02Cam;
+    public CinemachineVirtualCamera DMV03Cam;
+    public CinemachineVirtualCamera Don04Cam;
+    public CinemachineVirtualCamera Flork05Cam;
+    public CinemachineVirtualCamera Kermit06Cam;
     
     [Header("States")]
     public BluntState currentState;
     public enum BluntState
     {
-        Kermit01,
-        Kermit02,
-        Kermit03,
-        Kermit04,
+        Nathan,
+        Stephen,
+        DMV,
+        DonQuixote,
+        Flork,
+        Kermit,
         MAXIMUM
     }
     // Start is called before the first frame update
     void Start()
     {
-        currentState = BluntState.Kermit01;
+        currentState = BluntState.Nathan;
     }
 
     // Update is called once per frame
@@ -50,34 +54,60 @@ public class RotationManager : MonoBehaviour
         
         
         //State Conditions
-        if (currentState == BluntState.Kermit01)
+        if (currentState == BluntState.Nathan)
         {
-            Kermit01Cam.Priority = 2;
-            Kermit02Cam.Priority = 1;
-            Kermit03Cam.Priority = 1;
-            Kermit04Cam.Priority = 1;
+            Nathan01Cam.Priority = 2;
+            Stephen02Cam.Priority = 1;
+            DMV03Cam.Priority = 1;
+            Don04Cam.Priority = 1;
+            Flork05Cam.Priority = 1;
+            Kermit06Cam.Priority = 1;
         }
         
-        if (currentState == BluntState.Kermit02)
+        if (currentState == BluntState.Stephen)
         {
-            Kermit01Cam.Priority = 1;
-            Kermit02Cam.Priority = 2;
-            Kermit03Cam.Priority = 1;
-            Kermit04Cam.Priority = 1;
+            Nathan01Cam.Priority = 1;
+            Stephen02Cam.Priority = 2;
+            DMV03Cam.Priority = 1;
+            Don04Cam.Priority = 1;
+            Flork05Cam.Priority = 1;
+            Kermit06Cam.Priority = 1;
         }
-        if (currentState == BluntState.Kermit03)
+        if (currentState == BluntState.DMV)
         {
-            Kermit01Cam.Priority = 1;
-            Kermit02Cam.Priority = 1;
-            Kermit03Cam.Priority = 2;
-            Kermit04Cam.Priority = 1;
+            Nathan01Cam.Priority = 1;
+            Stephen02Cam.Priority = 1;
+            DMV03Cam.Priority = 2;
+            Don04Cam.Priority = 1;
+            Flork05Cam.Priority = 1;
+            Kermit06Cam.Priority = 1;
         }
-        if (currentState == BluntState.Kermit04)
+        if (currentState == BluntState.DonQuixote)
         {
-            Kermit01Cam.Priority = 1;
-            Kermit02Cam.Priority = 1;
-            Kermit03Cam.Priority = 1;
-            Kermit04Cam.Priority = 2;
+            Nathan01Cam.Priority = 1;
+            Stephen02Cam.Priority = 1;
+            DMV03Cam.Priority = 1;
+            Don04Cam.Priority =2;
+            Flork05Cam.Priority = 1;
+            Kermit06Cam.Priority = 1;
+        }
+        if (currentState == BluntState.Flork)
+        {
+            Nathan01Cam.Priority = 1;
+            Stephen02Cam.Priority = 1;
+            DMV03Cam.Priority = 1;
+            Don04Cam.Priority = 1;
+            Flork05Cam.Priority = 2;
+            Kermit06Cam.Priority = 1;
+        }
+        if (currentState == BluntState.Kermit)
+        {
+            Nathan01Cam.Priority = 1;
+            Stephen02Cam.Priority = 1;
+            DMV03Cam.Priority = 1;
+            Don04Cam.Priority = 1;
+            Flork05Cam.Priority = 1;
+            Kermit06Cam.Priority = 2;
         }
     }
 
