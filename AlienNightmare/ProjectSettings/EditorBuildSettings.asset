@@ -9,9 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/Scenes/TestingScenes/RoundTableScene.unity
+    path: Assets/Scenes/RoundTableScene.unity
     guid: 2fe836e425c45481e9758e707843b369
   - enabled: 1
-    path: Assets/Scenes/TestingScenes/RoundTableScene 1.unity
+    path: Assets/Scenes/RoundTableScene 1.unity
     guid: 20cc13a95d2d9204c9800504345a37a9
   m_configObjects: {}
