@@ -1,49 +1,49 @@
 Flork: Sorry, I can’t come. I’m bedmaxxing right now. 
-You: Bedmaxxing? 
+You (Streamer): Bedmaxxing? 
 
 *[Ask about what that means] -> meaning
 *[Tell him that the term is bedrotting] -> rotting
 
     ==meaning==
     Flork: Yeah, it’s when I lay in bed and do nothing so hard I transcend mortal limits. 
-    You: That doesn’t seem very healthy.
+    You (Streamer): That doesn’t seem very healthy.
     Flork: To YOU. I, however, am so well rested I have become God. 
     -> interlude
     
     ==rotting==
     Flork: Excuse you, I am not rotting. That would require me to be dead. 
-    You: Well, aren’t you dead asleep most of the time? 
+    You (Streamer): Well, aren’t you dead asleep most of the time? 
     Flork: I’m practicing. 
     -> interlude
 
 
 ==interlude==
-You: Don’t you ever get the desire to… y’know… go outside and touch grass? 
+You (Streamer): Don’t you ever get the desire to… y’know… go outside and touch grass? 
 Flork: No. 
-You: …
+You (Streamer): …
 Flork: Why would I? 
-You: Okay no I understand. 
+You (Streamer): Okay no I understand. 
     *[Eating healthy] -> health
     *[Exercise] -> exercise
     
     ==health==
-    You: I hope you’re, uh, eating healthy at least. 
+    You (Streamer): I hope you’re, uh, eating healthy at least. 
     Flork: I try. 
-    You: That’s good.
+    You (Streamer): That’s good.
     -> ending
     
     ==exercise==
-    You: Do you exercise at least? Do some sort of, uh, physical activity? 
+    You (Streamer): Do you exercise at least? Do some sort of, uh, physical activity? 
     Flork: There’s gym equipment in the basement. 
-    You: Do you use it? 
+    You (Streamer): Do you use it? 
     Flork: Sometimes. 
     -> ending
 
 
 ==ending==
-You: Well uh I hope you have a good day?? I think???
+You (Streamer): Well uh I hope you have a good day?? I think???
 Flork 4: (snoring) 
-You: Oh they’re out cold. Okay. 
+You (Streamer): Oh they’re out cold. Okay. 
 -> END
 
 
