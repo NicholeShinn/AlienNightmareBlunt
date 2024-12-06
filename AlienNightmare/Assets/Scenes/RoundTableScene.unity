@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0032037909, g: 0.008842139, b: 0.009103828, a: 1}
+  m_IndirectSpecularColor: {r: 0.0031994018, g: 0.008853044, b: 0.009106097, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1360,7 +1360,7 @@ MonoBehaviour:
   - {fileID: 4900000, guid: 6ec6a7f5f87f9e84c90d21168d7a7d1d, type: 3}
   - {fileID: 4900000, guid: 32cbf86a1a75745f89be62642eff97ee, type: 3}
   - {fileID: 4900000, guid: 1758e5df5fe61aa44a15283d23507d8f, type: 3}
-  - {fileID: 4900000, guid: bd279c430b54ab34287e0f40250cbb17, type: 3}
+  - {fileID: 4900000, guid: 6f9ba55a7adf3d845925de54022e9366, type: 3}
   - {fileID: 4900000, guid: f405da061d1ba46f6a496053ce5883b6, type: 3}
   - {fileID: 4900000, guid: 04691a1e4b44644cbbd1fb72800bf8c5, type: 3}
   - {fileID: 4900000, guid: e20c5d5f795284c7a84089ad35127f57, type: 3}
@@ -4739,7 +4739,7 @@ MonoBehaviour:
   allowBarksDuringConversations: 0
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
-  conversation: DonQuixoteRot01
+  conversation: Don Quixote 1
   conversationConversant: {fileID: 0}
   conversationActor: {fileID: 0}
   startConversationEntryID: -1
@@ -5379,7 +5379,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1632966998}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: a7449086d31ef446dbfd79f0085f1991, type: 2}
   m_CullingMode: 0
