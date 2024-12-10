@@ -41,7 +41,7 @@ public class RotationManager : MonoBehaviour
     private void RotateCamera()
     {
         //State Changes
-        if (Input.GetKeyUp(KeyCode.RightArrow))
+        if (Input.GetKeyUp(KeyCode.LeftArrow))
         {
             currentState++;
             canRotate = false;
