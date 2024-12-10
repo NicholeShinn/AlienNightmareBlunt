@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0032037909, g: 0.008842139, b: 0.009103828, a: 1}
+  m_IndirectSpecularColor: {r: 0.0031994018, g: 0.008853044, b: 0.009106097, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -886,7 +886,7 @@ MonoBehaviour:
   appendNewlineToPlayerResponses: 0
   playerDialogueTextFollowsResponseText: 1
   disableAlwaysForceResponseMenu: 1
-  forceResponseMenuForSingleChoices: 0
+  forceResponseMenuForSingleChoices: 1
   tieSequencesToDialogueEntries: 1
   debug: 0
   isResuming: 0

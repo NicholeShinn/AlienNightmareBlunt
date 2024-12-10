@@ -953,7 +953,7 @@ MonoBehaviour:
   appendNewlineToPlayerResponses: 0
   playerDialogueTextFollowsResponseText: 1
   disableAlwaysForceResponseMenu: 1
-  forceResponseMenuForSingleChoices: 0
+  forceResponseMenuForSingleChoices: 1
   tieSequencesToDialogueEntries: 1
   debug: 0
   isResuming: 0
