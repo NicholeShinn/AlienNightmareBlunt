@@ -940,12 +940,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inkJSONAssets:
-  - {fileID: 4900000, guid: 166fb163608634a83acfb7e54059ad08, type: 3}
+  - {fileID: 4900000, guid: e58852de3ff12449dba26ef38111b2e3, type: 3}
   - {fileID: 4900000, guid: d7bdeadf2b97d4e6da394b33981ede5c, type: 3}
   - {fileID: 4900000, guid: 6ec6a7f5f87f9e84c90d21168d7a7d1d, type: 3}
-  - {fileID: 4900000, guid: b275c861450d4445fb0b1d3d7c6e1632, type: 3}
-  - {fileID: 4900000, guid: a1602b465e84b412a9a5efe46c6ac7a5, type: 3}
-  - {fileID: 4900000, guid: b40fdc3f6cb6bcb44be4aacb01e96f8e, type: 3}
+  - {fileID: 4900000, guid: 814d5c6c31f2243ecbd785631752438b, type: 3}
+  - {fileID: 4900000, guid: c121db4074cf241bd81a8d15453da24f, type: 3}
+  - {fileID: 4900000, guid: 5fbd5c2c1cc0d49ff80a3ff916bd21e8, type: 3}
   resetStateOnConversationStart: 0
   actorNamesPrecedeLines: 1
   caseSensitiveActorNames: 0
@@ -2063,7 +2063,7 @@ MonoBehaviour:
   allowBarksDuringConversations: 0
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
-  conversation: Nathan 2
+  conversation: Nathan 3
   conversationConversant: {fileID: 0}
   conversationActor: {fileID: 0}
   startConversationEntryID: -1
@@ -3958,49 +3958,34 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 5a934b18cb36742bfae7447918bb5c3b,
+      objectReference: {fileID: 21300000, guid: 5c59b090e02d3479689ac9b26b14cdbf,
         type: 3}
     - target: {fileID: 1732136742671734408, guid: b730e3af35d504694aca667382544b38,
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 5c59b090e02d3479689ac9b26b14cdbf,
+      objectReference: {fileID: 21300000, guid: 95a374a306037497383a648039755031,
         type: 3}
     - target: {fileID: 2770671001495033551, guid: b730e3af35d504694aca667382544b38,
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 9d09f5109b99e48ddbb43fc3cd572fce,
+      objectReference: {fileID: 21300000, guid: 5a934b18cb36742bfae7447918bb5c3b,
         type: 3}
-    - target: {fileID: 3101688298891622986, guid: b730e3af35d504694aca667382544b38,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 3101688298891622986, guid: b730e3af35d504694aca667382544b38,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 3101688298891622986, guid: b730e3af35d504694aca667382544b38,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.8
-      objectReference: {fileID: 0}
     - target: {fileID: 6665148400088886693, guid: b730e3af35d504694aca667382544b38,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.46
+      value: 1.2
       objectReference: {fileID: 0}
     - target: {fileID: 6665148400088886693, guid: b730e3af35d504694aca667382544b38,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.46
+      value: 1.2
       objectReference: {fileID: 0}
     - target: {fileID: 6665148400088886693, guid: b730e3af35d504694aca667382544b38,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.46
+      value: 1.2
       objectReference: {fileID: 0}
     - target: {fileID: 7082614112518608332, guid: b730e3af35d504694aca667382544b38,
         type: 3}
@@ -4066,12 +4051,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 95a374a306037497383a648039755031,
+      objectReference: {fileID: 21300000, guid: 9d09f5109b99e48ddbb43fc3cd572fce,
         type: 3}
     - target: {fileID: 8613087590449786985, guid: b730e3af35d504694aca667382544b38,
         type: 3}
       propertyPath: conversation
-      value: DMV2
+      value: DMV3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5298,7 +5283,7 @@ MonoBehaviour:
   allowBarksDuringConversations: 0
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
-  conversation: KermitRotation02
+  conversation: Kermitrotation03
   conversationConversant: {fileID: 0}
   conversationActor: {fileID: 0}
   startConversationEntryID: -1
@@ -5601,7 +5586,7 @@ MonoBehaviour:
   allowBarksDuringConversations: 0
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
-  conversation: Flork2
+  conversation: Flork3
   conversationConversant: {fileID: 0}
   conversationActor: {fileID: 0}
   startConversationEntryID: -1
