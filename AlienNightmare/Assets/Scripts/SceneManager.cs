@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class SceneManager : MonoBehaviour
 {
+    public string nextScene;
     private int _triggerEnterTime;
     // Start is called before the first frame update
     void Start()
@@ -17,7 +18,7 @@ public class SceneManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.S))
         {
-            UnityEngine.SceneManagement.SceneManager.LoadScene(2);
+            UnityEngine.SceneManagement.SceneManager.LoadScene(nextScene);
         }
     }
 
@@ -29,6 +30,6 @@ public class SceneManager : MonoBehaviour
             return;
         }
 
-        UnityEngine.SceneManagement.SceneManager.LoadScene(2);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(nextScene);
     }
 }
