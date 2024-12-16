@@ -62,6 +62,11 @@ PrefabInstance:
       propertyPath: subtitleText.m_textMeshProUGUI
       value: 
       objectReference: {fileID: 5189216945673370176}
+    - target: {fileID: 114884715895345952, guid: 576820d27454daf4bb3b31f6c63b04ca,
+        type: 3}
+      propertyPath: m_LayoutPriority
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 224130755184437030, guid: 576820d27454daf4bb3b31f6c63b04ca,
         type: 3}
       propertyPath: m_AnchorMax.x

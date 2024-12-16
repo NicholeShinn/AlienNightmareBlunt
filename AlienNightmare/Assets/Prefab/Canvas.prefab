@@ -147,13 +147,15 @@ GameObject:
   - component: {fileID: 5184456230912758863}
   - component: {fileID: 1645835370471402828}
   - component: {fileID: 8575271406792554154}
+  - component: {fileID: 558372433707906791}
+  - component: {fileID: 7005740418460922715}
   m_Layer: 5
   m_Name: RightButtontoContinue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &757797416301782997
 RectTransform:
   m_ObjectHideFlags: 0
@@ -233,6 +235,30 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &558372433707906791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 797081084675287730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ea827a22e5755e40bbd02fac54cb081, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7005740418460922715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 797081084675287730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ea827a22e5755e40bbd02fac54cb081, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1560656941181611381
 GameObject:
   m_ObjectHideFlags: 0
