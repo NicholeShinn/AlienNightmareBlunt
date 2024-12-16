@@ -8,6 +8,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1016829022048088, guid: 576820d27454daf4bb3b31f6c63b04ca, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1024589797444566, guid: 576820d27454daf4bb3b31f6c63b04ca, type: 3}
       propertyPath: m_Name
       value: Computer Standard Dialogue UI Variant
@@ -42,6 +46,16 @@ PrefabInstance:
       propertyPath: subtitleText.m_textMeshProUGUI
       value: 
       objectReference: {fileID: 8600619581900673097}
+    - target: {fileID: 114802319631583008, guid: 576820d27454daf4bb3b31f6c63b04ca,
+        type: 3}
+      propertyPath: m_Colors.m_SelectedColor.a
+      value: 0.79607844
+      objectReference: {fileID: 0}
+    - target: {fileID: 114802319631583008, guid: 576820d27454daf4bb3b31f6c63b04ca,
+        type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.a
+      value: 0.7882353
+      objectReference: {fileID: 0}
     - target: {fileID: 114805673582727470, guid: 576820d27454daf4bb3b31f6c63b04ca,
         type: 3}
       propertyPath: portraitName.m_uiText
@@ -467,6 +481,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 224833919691255960, guid: 576820d27454daf4bb3b31f6c63b04ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 135
+      objectReference: {fileID: 0}
     - target: {fileID: 224852508761563750, guid: 576820d27454daf4bb3b31f6c63b04ca,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -579,6 +598,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 185086603269717077}
+    - targetCorrespondingSourceObject: {fileID: 1160106442040178, guid: 576820d27454daf4bb3b31f6c63b04ca,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8805600112394890651}
     - targetCorrespondingSourceObject: {fileID: 1348672082729122, guid: 576820d27454daf4bb3b31f6c63b04ca,
         type: 3}
       insertIndex: -1
@@ -587,10 +610,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 2046557783657664272}
-    - targetCorrespondingSourceObject: {fileID: 1160106442040178, guid: 576820d27454daf4bb3b31f6c63b04ca,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 8805600112394890651}
   m_SourcePrefab: {fileID: 100100000, guid: 576820d27454daf4bb3b31f6c63b04ca, type: 3}
 --- !u!1 &7272048844145854784 stripped
 GameObject:
@@ -629,7 +648,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 0.022774577, g: 1, b: 0, a: 1}
+  m_fontColor: {r: 0.53333336, g: 1, b: 0.75686276, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -725,7 +744,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 0.022774577, g: 1, b: 0, a: 1}
+  m_fontColor: {r: 0.5330188, g: 1, b: 0.7554911, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:

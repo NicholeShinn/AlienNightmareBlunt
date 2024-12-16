@@ -17,4 +17,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Round 2.unity
     guid: 9c4b5b10a3695438b87b0778c616d77a
+  - enabled: 1
+    path: Assets/Scenes/Round 3.unity
+    guid: 1056924afc072524cb054a0ac1b2569d
+  - enabled: 1
+    path: Assets/Scenes/Round 4.unity
+    guid: c193f23f187285c4485b2e0da5c02472
+  - enabled: 1
+    path: Assets/Scenes/Round 5.unity
+    guid: 3a8adbe692dd36e4693cd5d8a46e0b9e
+  - enabled: 1
+    path: Assets/Scenes/AbductionOutro.unity
+    guid: 2e1048bb6612147a89e4548b4778ac38
   m_configObjects: {}

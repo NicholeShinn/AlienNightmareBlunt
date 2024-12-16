@@ -33,24 +33,19 @@ public class RotationManager : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        RotateCamera();
-    }
+   
 
-    private void RotateCamera()
+    public void RotateCamera()
     {
         //State Changes
-        if (Input.GetKeyUp(KeyCode.LeftArrow))
-        {
-            currentState++;
-            canRotate = false;
+        currentState++; 
+        canRotate = false;
 
             if (currentState >= BluntState.MAXIMUM)
             {
                 currentState = 0;
             }
-        }
+        
         
         
         //State Conditions

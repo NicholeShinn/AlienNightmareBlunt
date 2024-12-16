@@ -538,7 +538,7 @@ MonoBehaviour:
   allowBarksDuringConversations: 0
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
-  conversation: StephenKingRotation02
+  conversation: StephenKingRotation04
   conversationConversant: {fileID: 0}
   conversationActor: {fileID: 0}
   startConversationEntryID: -1
@@ -921,43 +921,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &485854241 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 125852, guid: 58ac37417e60e534f91138088a3e6f70,
-    type: 3}
-  m_PrefabInstance: {fileID: 878899156}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &485854246
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 485854241}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f01efd999b5f1b34ca2d2c55de4a0b43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inkJSONAssets:
-  - {fileID: 4900000, guid: e58852de3ff12449dba26ef38111b2e3, type: 3}
-  - {fileID: 4900000, guid: d7bdeadf2b97d4e6da394b33981ede5c, type: 3}
-  - {fileID: 4900000, guid: 6ec6a7f5f87f9e84c90d21168d7a7d1d, type: 3}
-  - {fileID: 4900000, guid: 814d5c6c31f2243ecbd785631752438b, type: 3}
-  - {fileID: 4900000, guid: c121db4074cf241bd81a8d15453da24f, type: 3}
-  - {fileID: 4900000, guid: 5fbd5c2c1cc0d49ff80a3ff916bd21e8, type: 3}
-  resetStateOnConversationStart: 0
-  actorNamesPrecedeLines: 1
-  caseSensitiveActorNames: 0
-  trimText: 1
-  appendNewlineToPlayerResponses: 0
-  playerDialogueTextFollowsResponseText: 1
-  disableAlwaysForceResponseMenu: 1
-  forceResponseMenuForSingleChoices: 1
-  tieSequencesToDialogueEntries: 1
-  debug: 0
-  isResuming: 0
-  isPlayerSpeaking: 0
 --- !u!1001 &493958052
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1776,14 +1739,15 @@ PrefabInstance:
       propertyPath: displaySettings.subtitleSettings.skipPCSubtitleAfterResponseMenu
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7527514198082947857, guid: 58ac37417e60e534f91138088a3e6f70,
+        type: 3}
+      propertyPath: conversationEvents.onConversationEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1811501476}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 125852, guid: 58ac37417e60e534f91138088a3e6f70,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 485854246}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
 --- !u!1 &901487030
 GameObject:
@@ -2063,7 +2027,7 @@ MonoBehaviour:
   allowBarksDuringConversations: 0
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
-  conversation: Nathan 3
+  conversation: Nathan 5
   conversationConversant: {fileID: 0}
   conversationActor: {fileID: 0}
   startConversationEntryID: -1
@@ -3159,6 +3123,74 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1001 &1207856052
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2321688970122559339, guid: 00975d60223354efd883d40ad27e7893,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -109.24758
+      objectReference: {fileID: 0}
+    - target: {fileID: 2321688970122559339, guid: 00975d60223354efd883d40ad27e7893,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -238.0427
+      objectReference: {fileID: 0}
+    - target: {fileID: 2321688970122559339, guid: 00975d60223354efd883d40ad27e7893,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 467.89185
+      objectReference: {fileID: 0}
+    - target: {fileID: 2321688970122559339, guid: 00975d60223354efd883d40ad27e7893,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2321688970122559339, guid: 00975d60223354efd883d40ad27e7893,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2321688970122559339, guid: 00975d60223354efd883d40ad27e7893,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2321688970122559339, guid: 00975d60223354efd883d40ad27e7893,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2321688970122559339, guid: 00975d60223354efd883d40ad27e7893,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2321688970122559339, guid: 00975d60223354efd883d40ad27e7893,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2321688970122559339, guid: 00975d60223354efd883d40ad27e7893,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6495415251446991969, guid: 00975d60223354efd883d40ad27e7893,
+        type: 3}
+      propertyPath: m_Name
+      value: Scene Manager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 00975d60223354efd883d40ad27e7893, type: 3}
 --- !u!1 &1266611183
 GameObject:
   m_ObjectHideFlags: 0
@@ -3774,7 +3806,7 @@ MonoBehaviour:
   allowBarksDuringConversations: 0
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
-  conversation: InkyTest
+  conversation: Don Quixote 5
   conversationConversant: {fileID: 0}
   conversationActor: {fileID: 0}
   startConversationEntryID: -1
@@ -3958,19 +3990,19 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 5c59b090e02d3479689ac9b26b14cdbf,
+      objectReference: {fileID: 21300000, guid: 9d09f5109b99e48ddbb43fc3cd572fce,
         type: 3}
     - target: {fileID: 1732136742671734408, guid: b730e3af35d504694aca667382544b38,
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 95a374a306037497383a648039755031,
+      objectReference: {fileID: 21300000, guid: 5a934b18cb36742bfae7447918bb5c3b,
         type: 3}
     - target: {fileID: 2770671001495033551, guid: b730e3af35d504694aca667382544b38,
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 5a934b18cb36742bfae7447918bb5c3b,
+      objectReference: {fileID: 21300000, guid: 95a374a306037497383a648039755031,
         type: 3}
     - target: {fileID: 6665148400088886693, guid: b730e3af35d504694aca667382544b38,
         type: 3}
@@ -4051,12 +4083,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 9d09f5109b99e48ddbb43fc3cd572fce,
+      objectReference: {fileID: 21300000, guid: 5c59b090e02d3479689ac9b26b14cdbf,
         type: 3}
     - target: {fileID: 8613087590449786985, guid: b730e3af35d504694aca667382544b38,
         type: 3}
       propertyPath: conversation
-      value: DMV3
+      value: DMV5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4998,6 +5030,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 797081084675287730, guid: 0e2c38963386b43c988df21d98e264b5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7726947503384688650, guid: 0e2c38963386b43c988df21d98e264b5,
         type: 3}
       propertyPath: m_Name
@@ -5008,6 +5045,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e2c38963386b43c988df21d98e264b5, type: 3}
+--- !u!1 &1811501476 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 797081084675287730, guid: 0e2c38963386b43c988df21d98e264b5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1811501475}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1901333274
 GameObject:
   m_ObjectHideFlags: 0
@@ -5283,7 +5326,7 @@ MonoBehaviour:
   allowBarksDuringConversations: 0
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
-  conversation: Kermitrotation03
+  conversation: Kermitrotation05
   conversationConversant: {fileID: 0}
   conversationActor: {fileID: 0}
   startConversationEntryID: -1
@@ -5586,7 +5629,7 @@ MonoBehaviour:
   allowBarksDuringConversations: 0
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
-  conversation: Flork3
+  conversation: Flork4
   conversationConversant: {fileID: 0}
   conversationActor: {fileID: 0}
   startConversationEntryID: -1
@@ -5998,3 +6041,4 @@ SceneRoots:
   - {fileID: 1577657453}
   - {fileID: 65704873}
   - {fileID: 1046995866}
+  - {fileID: 1207856052}

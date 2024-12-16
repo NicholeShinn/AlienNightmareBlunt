@@ -342,6 +342,33 @@ MonoBehaviour:
   - {fileID: 4900000, guid: 6f9ba55a7adf3d845925de54022e9366, type: 3}
   - {fileID: 4900000, guid: f405da061d1ba46f6a496053ce5883b6, type: 3}
   - {fileID: 4900000, guid: 04691a1e4b44644cbbd1fb72800bf8c5, type: 3}
+  - {fileID: 4900000, guid: b40fdc3f6cb6bcb44be4aacb01e96f8e, type: 3}
+  - {fileID: 4900000, guid: 166fb163608634a83acfb7e54059ad08, type: 3}
+  - {fileID: 4900000, guid: b275c861450d4445fb0b1d3d7c6e1632, type: 3}
+  - {fileID: 4900000, guid: a1602b465e84b412a9a5efe46c6ac7a5, type: 3}
+  - {fileID: 4900000, guid: d7bdeadf2b97d4e6da394b33981ede5c, type: 3}
+  - {fileID: 4900000, guid: c121db4074cf241bd81a8d15453da24f, type: 3}
+  - {fileID: 4900000, guid: 814d5c6c31f2243ecbd785631752438b, type: 3}
+  - {fileID: 4900000, guid: e58852de3ff12449dba26ef38111b2e3, type: 3}
+  - {fileID: 4900000, guid: 5fbd5c2c1cc0d49ff80a3ff916bd21e8, type: 3}
+  - {fileID: 4900000, guid: 67c92fe1ec3cb4d21aa41db9ee72532f, type: 3}
+  - {fileID: 4900000, guid: 906e1b700619e4db991c804daa188f9e, type: 3}
+  - {fileID: 4900000, guid: 32fa8ddfa63e142a1957143b4a45439e, type: 3}
+  - {fileID: 4900000, guid: bea8efc4a50d2450d9ffff12d6e384c7, type: 3}
+  - {fileID: 4900000, guid: 393004fa04bd246a1a7aae58545af43e, type: 3}
+  - {fileID: 4900000, guid: 6e7def27e89c74c9cafd13e18b40727c, type: 3}
+  - {fileID: 4900000, guid: f40fafbd2e47a483f8fa1ceb0a5498a0, type: 3}
+  - {fileID: 4900000, guid: f40fafbd2e47a483f8fa1ceb0a5498a0, type: 3}
+  - {fileID: 4900000, guid: a4f0c0de2f60e4ca593c6c730da5b8a6, type: 3}
+  - {fileID: 4900000, guid: 9c030fc702abd4aab88758a2e66fe893, type: 3}
+  - {fileID: 4900000, guid: 2ddc0e141be9f44d5b3e95ddf0abfeb6, type: 3}
+  - {fileID: 4900000, guid: 965fd6febd3b849d29fbea1ccbbff1f1, type: 3}
+  - {fileID: 4900000, guid: 1a9d3711b79bd42088bc226aa83481cb, type: 3}
+  - {fileID: 4900000, guid: 1a9d3711b79bd42088bc226aa83481cb, type: 3}
+  - {fileID: 4900000, guid: 7caee2e0e14c8404eb3971ddfdfc4946, type: 3}
+  - {fileID: 4900000, guid: ef727e8bea7d04751b9ff2da85591b6c, type: 3}
+  - {fileID: 4900000, guid: bef96c4364ec74c61a27b090d3a105e9, type: 3}
+  - {fileID: 4900000, guid: a59f92f8ec57a4b06adce06f3115e849, type: 3}
   - {fileID: 4900000, guid: f4cc09ea8d34940d9a65b87e012a04e2, type: 3}
   resetStateOnConversationStart: 0
   actorNamesPrecedeLines: 1
