@@ -3253,6 +3253,43 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &1300064313 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 125852, guid: 58ac37417e60e534f91138088a3e6f70,
+    type: 3}
+  m_PrefabInstance: {fileID: 1384665850}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1300064320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1300064313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f01efd999b5f1b34ca2d2c55de4a0b43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inkJSONAssets:
+  - {fileID: 4900000, guid: 3064b2d0481aced489170fbe035147dc, type: 3}
+  - {fileID: 4900000, guid: b275c861450d4445fb0b1d3d7c6e1632, type: 3}
+  - {fileID: 4900000, guid: a1602b465e84b412a9a5efe46c6ac7a5, type: 3}
+  - {fileID: 4900000, guid: 166fb163608634a83acfb7e54059ad08, type: 3}
+  - {fileID: 4900000, guid: d7bdeadf2b97d4e6da394b33981ede5c, type: 3}
+  - {fileID: 4900000, guid: b40fdc3f6cb6bcb44be4aacb01e96f8e, type: 3}
+  resetStateOnConversationStart: 0
+  actorNamesPrecedeLines: 0
+  caseSensitiveActorNames: 0
+  trimText: 1
+  appendNewlineToPlayerResponses: 0
+  playerDialogueTextFollowsResponseText: 0
+  disableAlwaysForceResponseMenu: 1
+  forceResponseMenuForSingleChoices: 0
+  tieSequencesToDialogueEntries: 1
+  debug: 0
+  isResuming: 0
+  isPlayerSpeaking: 0
 --- !u!1 &1320333747
 GameObject:
   m_ObjectHideFlags: 0
@@ -3430,10 +3467,15 @@ PrefabInstance:
       propertyPath: inkJSONAssets.Array.data[35]
       value: 
       objectReference: {fileID: 4900000, guid: f4cc09ea8d34940d9a65b87e012a04e2, type: 3}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8083153217919939150, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 125852, guid: 58ac37417e60e534f91138088a3e6f70,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1300064320}
   m_SourcePrefab: {fileID: 100100000, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
 --- !u!1001 &1384737764
 PrefabInstance:

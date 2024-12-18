@@ -1780,11 +1780,53 @@ PrefabInstance:
       propertyPath: conversationEvents.onConversationEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1811501476}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8083153217919939150, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 125852, guid: 58ac37417e60e534f91138088a3e6f70,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 878899158}
   m_SourcePrefab: {fileID: 100100000, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
+--- !u!1 &878899157 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 125852, guid: 58ac37417e60e534f91138088a3e6f70,
+    type: 3}
+  m_PrefabInstance: {fileID: 878899156}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &878899158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878899157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f01efd999b5f1b34ca2d2c55de4a0b43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inkJSONAssets:
+  - {fileID: 4900000, guid: 2ddc0e141be9f44d5b3e95ddf0abfeb6, type: 3}
+  - {fileID: 4900000, guid: a4f0c0de2f60e4ca593c6c730da5b8a6, type: 3}
+  - {fileID: 4900000, guid: 9c030fc702abd4aab88758a2e66fe893, type: 3}
+  - {fileID: 4900000, guid: 965fd6febd3b849d29fbea1ccbbff1f1, type: 3}
+  - {fileID: 4900000, guid: 1a9d3711b79bd42088bc226aa83481cb, type: 3}
+  - {fileID: 4900000, guid: 9c1d7bbc924df4962a8ea5c8504065d4, type: 3}
+  resetStateOnConversationStart: 0
+  actorNamesPrecedeLines: 0
+  caseSensitiveActorNames: 0
+  trimText: 1
+  appendNewlineToPlayerResponses: 0
+  playerDialogueTextFollowsResponseText: 0
+  disableAlwaysForceResponseMenu: 1
+  forceResponseMenuForSingleChoices: 0
+  tieSequencesToDialogueEntries: 1
+  debug: 0
+  isResuming: 0
+  isPlayerSpeaking: 0
 --- !u!1 &901487030
 GameObject:
   m_ObjectHideFlags: 0

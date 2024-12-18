@@ -2566,11 +2566,58 @@ PrefabInstance:
       propertyPath: inkJSONAssets.Array.data[43]
       value: 
       objectReference: {fileID: 4900000, guid: 600dd7c03501e48069573e61ad1e01db, type: 3}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8083153217919939150, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 125852, guid: 58ac37417e60e534f91138088a3e6f70,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 878899158}
   m_SourcePrefab: {fileID: 100100000, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
+--- !u!1 &878899157 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 125852, guid: 58ac37417e60e534f91138088a3e6f70,
+    type: 3}
+  m_PrefabInstance: {fileID: 878899156}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &878899158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878899157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f01efd999b5f1b34ca2d2c55de4a0b43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inkJSONAssets:
+  - {fileID: 4900000, guid: 7caee2e0e14c8404eb3971ddfdfc4946, type: 3}
+  - {fileID: 4900000, guid: 649caa184c1fa44658ed224f840cade2, type: 3}
+  - {fileID: 4900000, guid: ef727e8bea7d04751b9ff2da85591b6c, type: 3}
+  - {fileID: 4900000, guid: 6de0cfe78381c40eaa5ed412567fd16f, type: 3}
+  - {fileID: 4900000, guid: e546bd515313149c7a7e333785208cb6, type: 3}
+  - {fileID: 4900000, guid: bef96c4364ec74c61a27b090d3a105e9, type: 3}
+  - {fileID: 4900000, guid: 84dcbf69bf0774af2a99648a4c6b2688, type: 3}
+  - {fileID: 4900000, guid: c82f67767daa2415da97a5af2fc44998, type: 3}
+  - {fileID: 4900000, guid: fd0b0bb5d4e5f4c98896d31d04cc191e, type: 3}
+  - {fileID: 4900000, guid: 7403e9d059575496fb79659130a881d7, type: 3}
+  - {fileID: 4900000, guid: a59f92f8ec57a4b06adce06f3115e849, type: 3}
+  resetStateOnConversationStart: 0
+  actorNamesPrecedeLines: 0
+  caseSensitiveActorNames: 0
+  trimText: 1
+  appendNewlineToPlayerResponses: 0
+  playerDialogueTextFollowsResponseText: 0
+  disableAlwaysForceResponseMenu: 1
+  forceResponseMenuForSingleChoices: 0
+  tieSequencesToDialogueEntries: 1
+  debug: 0
+  isResuming: 0
+  isPlayerSpeaking: 0
 --- !u!1 &901487030
 GameObject:
   m_ObjectHideFlags: 0
