@@ -38,6 +38,6 @@ public class Abduction : MonoBehaviour
         hoverSource.Play();
         isabducted = true;
         yield return new WaitForSeconds(15f);
-        UnityEngine.SceneManagement.SceneManager.LoadScene("RoundTableScene");
+        UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
