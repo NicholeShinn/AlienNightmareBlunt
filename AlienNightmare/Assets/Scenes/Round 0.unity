@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0032037909, g: 0.008842139, b: 0.009103828, a: 1}
+  m_IndirectSpecularColor: {r: 0.0031410572, g: 0.008821284, b: 0.00913367, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1651,6 +1651,11 @@ PrefabInstance:
       propertyPath: conversationEvents.onConversationEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1506098504}
+    - target: {fileID: 8083153217919939150, guid: 58ac37417e60e534f91138088a3e6f70,
+        type: 3}
+      propertyPath: inkJSONAssets.Array.data[2]
+      value: 
+      objectReference: {fileID: 4900000, guid: 48b9b0fcb7e840e42bc766788ca63b14, type: 3}
     - target: {fileID: 8083153217919939150, guid: 58ac37417e60e534f91138088a3e6f70,
         type: 3}
       propertyPath: inkJSONAssets.Array.data[22]
@@ -5100,7 +5105,7 @@ MonoBehaviour:
   allowBarksDuringConversations: 0
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
-  conversation: NathanRot1
+  conversation: Nathan 1
   conversationConversant: {fileID: 0}
   conversationActor: {fileID: 0}
   startConversationEntryID: -1
@@ -5127,7 +5132,7 @@ MonoBehaviour:
   useConversationTitlePicker: 1
   useBarkTitlePicker: 1
   useQuestNamePicker: 1
-  selectedDatabase: {fileID: 11400000, guid: 584397c7f19739e47b74fd8ab7756e48, type: 2}
+  selectedDatabase: {fileID: 11400000, guid: fb340d36711f17a48a3e6537466a3f4f, type: 2}
 --- !u!4 &2094616892
 Transform:
   m_ObjectHideFlags: 0
